@@ -14,6 +14,14 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16/09/2025
+Descritivo: Esse código testa se uma string não está vazia E tem mais de 3 caracteres
 *******************************************************************************/
+
+$texto = "Boa Noite Professor Flores!";
+
+if (!empty($texto) && strlen($texto) > 3) {
+    echo "A string '$texto' é válida: não está vazia e tem mais de 3 caracteres.";
+} else {
+    echo "A string '$texto' é inválida.";
+}
