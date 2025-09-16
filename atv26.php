@@ -14,6 +14,15 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15/09/2025
+Descritivo: Esse código verifica se um número está entre 10 e 20
+
 *******************************************************************************/
+
+$numero = 11;
+
+if ($numero > 10 && $numero < 20) {
+    echo "número $numero está entre 10 e 20.";
+} else {
+    echo "número $numero não está entre 10 e 20.";
+}
