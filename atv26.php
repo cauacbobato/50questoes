@@ -17,3 +17,11 @@ Componentes:
 Data:
 Descritivo:
 *******************************************************************************/
+
+$numero = 11;
+
+if ($numero > 10 && $numero < 20) {
+    echo "número $numero está entre 10 e 20.";
+} else {
+    echo "número $numero não está entre 10 e 20.";
+}
