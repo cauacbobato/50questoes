@@ -17,3 +17,10 @@ Componentes:
 Data:
 Descritivo:
 *******************************************************************************/
+$valor = 115;
+
+if ($valor > 100 || $valor < 50) {
+    echo "O valor $valor é maior que 100 ou menor que 50.";
+} else {
+    echo "O valor $valor está entre 50 e 100.";
+}
